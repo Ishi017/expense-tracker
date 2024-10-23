@@ -1,4 +1,4 @@
-/* Transaction List Container */
+
 .transaction-list {
     background-color: #ffede1;
     padding: 20px;
@@ -26,14 +26,13 @@
     transition: background-color 0.2s ease;
 }
 
-/* Transaction Details */
+
 .transaction-details {
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-/* Edit Mode Styling */
 .transaction-item.edit-mode {
     background-color: #ffede1;
     border: 2px dashed #fd5404;
@@ -75,7 +74,6 @@
     color: #3d1803;
 }
 
-/* Transaction Amount Styling */
 .transaction-amount {
     font-size: 18px;
     font-weight: bold;
