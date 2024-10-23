@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffede1; /* Dark background */
+  /* margin: 0; */
+  /* padding: 20px; */
+  color: #fff; /* White text for better contrast */
+}
+
+h1 {
+  text-align: center;
+  color: #3d1803; /* Accent color for headings */
+}
+
+/* Transaction List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #2c2e30; 

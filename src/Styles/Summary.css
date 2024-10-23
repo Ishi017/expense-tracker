@@ -1,0 +1,46 @@
+.summary{
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2{
+    color: #fd5404;
+    background-color: #fdd4bf;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.summary-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.summary-income{
+    padding:1em;
+    font-size: large;
+    font-weight: 700;
+    color: #fd5404;
+    background-color: #fff ;
+    border: 1px solid #aeb0b2; 
+    border-radius: 10px;
+    flex:1;
+}
+
+.summary-expense{
+    padding:1em;
+    font-weight: 700;
+    font-size: large;
+    color: #3d1803;
+    background-color: #fff ;
+    border: 1px solid #aeb0b2; 
+    border-radius: 10px;
+    flex:1;
+}
+
+.balance{
+    font-size: 1.2rem;
+}
