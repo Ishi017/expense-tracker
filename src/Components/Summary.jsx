@@ -16,8 +16,8 @@ export default function Summary({ transactions }){
     <div className='summary'>
       <h2>Summary</h2>
       <div className="summary-category">
-        <div className="summary-income"><p>Total Income:&#8377; {totalIncome}</p></div>
-      <div className="summary-expense"> <p>Total Expenses:&#8377; {totalExpenses}</p></div>
+        <div className="summary-income"><p>Total Income: &#8377;{totalIncome}</p></div>
+      <div className="summary-expense"> <p>Total Expenses: &#8377;{totalExpenses}</p></div>
      
       </div>
       <p className='balance'>Balance: &#8377; {balance}</p>
